@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace TravelExpertsClasses
 {
     // Travel Packages Class
-    public class TravelPackagesClass
+    public class TravelPackage
     {
         // Private data for packages class
         private string pkgName;
@@ -52,6 +52,17 @@ namespace TravelExpertsClasses
         {
             get { return pkgAgencyCommission; }
             set { pkgAgencyCommission = value; }
+        }
+
+        // constructors
+        public TravelPackage (string name, string start, string end, string desc, decimal price, decimal commish)
+        {
+            PkgName = name;
+            PkgStartDate = start;
+            PkgEndDate = end;
+            PkgDesc = PkgDesc;
+            PkgBasePrice = price;
+            PkgAgencyCommission = commish;
         }
     }
 }
