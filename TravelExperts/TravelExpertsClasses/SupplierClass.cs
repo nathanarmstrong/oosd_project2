@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TravelExpertsClasses
 {
-    class Class2
+    class SupplierClass
     {
     }
 }
