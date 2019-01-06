@@ -6,6 +6,24 @@ using System.Threading.Tasks;
 
 namespace TravelExpertsClasses
 {
+    /* 
+        Author: James Sharpe
+
+        Current version - 1.0
+            version:
+                 v1.0 - Januray 6, 2018
+      
+      
+      
+      
+      
+        Note: need to add:
+ 
+        List<TravelPackage> travelPackage = new List<TravelPackage>(); // empty list of travelPackage
+
+        to the start of the Form
+    */
+
     // Travel Packages Class
     public class TravelPackage
     {
@@ -63,6 +81,19 @@ namespace TravelExpertsClasses
             PkgDesc = PkgDesc;
             PkgBasePrice = price;
             PkgAgencyCommission = commish;
+        }
+
+        // Methods
+
+        //write to file string method
+        public string ToFileString()
+        {
+            return pkgName.ToString() + "," +
+                pkgStartDate + "," +
+                pkgEndDate.ToString() + "," +
+                pkgDesc.ToString() + "," +
+                pkgBasePrice.ToString() + "," +
+                pkgAgencyCommission.ToString();
         }
     }
 }
