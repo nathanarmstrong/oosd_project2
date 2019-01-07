@@ -47,7 +47,10 @@
   </ItemGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="FileIO.cs" />
+=======
+>>>>>>> parent of 46b76d8... Merge branch 'Forms_layout'
 =======
 >>>>>>> parent of 46b76d8... Merge branch 'Forms_layout'
     <Compile Include="Form1.cs">
